@@ -134,7 +134,7 @@ int main() {
         //while (!sdt.empty()) { cout << sdt.front() << " "; sdt.pop_front(); } cout<<endl;
         sd.pop_front();
     }
-    avgSize = avgSize/ static_cast<double>(countLists);
+    avgSize = avgSize/static_cast<double>(countLists);
     cout << avgSize << endl;
 
 

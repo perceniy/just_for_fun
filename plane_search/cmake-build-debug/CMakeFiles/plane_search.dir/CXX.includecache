@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/arseniy/Projects/Other/just_for_fun/sort/main.cpp
+/Users/arseniy/Projects/Yandex/Unmanned/plane_search/main.cpp
 iostream
 -
-deque
+fstream
+-
+vector
+-
+algorithm
+-
+math.h
+-
+stdlib.h
 -
 

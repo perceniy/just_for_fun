@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/arseniy/Projects/Other/just_for_fun/deque_sort
+CMAKE_SOURCE_DIR = /Users/arseniy/Projects/Yandex/Unmanned/plane_search
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug/CMakeFiles /Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles /Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sort
+# Target rules for targets named plane_search
 
 # Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sort
-.PHONY : sort
+plane_search: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plane_search
+.PHONY : plane_search
 
 # fast build rule for target.
-sort/fast:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
+plane_search/fast:
+	$(MAKE) -f CMakeFiles/plane_search.dir/build.make CMakeFiles/plane_search.dir/build
+.PHONY : plane_search/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/plane_search.dir/build.make CMakeFiles/plane_search.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/plane_search.dir/build.make CMakeFiles/plane_search.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/plane_search.dir/build.make CMakeFiles/plane_search.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... sort"
+	@echo "... plane_search"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

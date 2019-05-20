@@ -1,0 +1,3 @@
+/Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles/plane_search.dir

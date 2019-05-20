@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arseniy/Projects/Other/just_for_fun/deque_sort/main.cpp" "/Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug/CMakeFiles/sort.dir/main.cpp.o"
+  "/Users/arseniy/Projects/Yandex/Unmanned/plane_search/main.cpp" "/Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/CMakeFiles/plane_search.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

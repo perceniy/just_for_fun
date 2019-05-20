@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arseniy/Projects/Other/just_for_fun/deque_sort
+# Install script for directory: /Users/arseniy/Projects/Yandex/Unmanned/plane_search
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/arseniy/Projects/Other/just_for_fun/deque_sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/arseniy/Projects/Yandex/Unmanned/plane_search/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
